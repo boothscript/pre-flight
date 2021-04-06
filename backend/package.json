@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "devdb": "docker run -it -p 27017:27017 -v /Users/stephenbooth/Dev/pre-flight/backend/db/data:/data/db --name mongodb -d mongo "
   },
   "keywords": [],
   "author": "",
